@@ -1,0 +1,28 @@
+div { 
+    width: 100%;
+    height: 200vh;
+}
+::placeholder {
+    caret-color: green;
+    /* width: 5px; */
+    color: blue;
+} 
+input {
+    caret-color: green;
+    color: blue;
+}
+::-webkit-scrollbar{
+    background-color: green;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+::-webkit-scrollbar-track-piece{
+    color: blue;
+    background-color: pink;
+}
+
+::-webkit-scrollbar-button{
+    color: purple;
+    border-radius: 50px;
+}
